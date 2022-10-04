@@ -68,3 +68,5 @@ def hello_pubsub(event, context):
   print(pubsub_message)
   tweets_to_bq(pubsub_message)
 ```
+* requirements.txt  
+`google-cloud-bigquery`
